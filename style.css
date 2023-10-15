@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans:opsz,wght@6..12,500&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Montserrat', 'Nunito Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background: #24263d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container{
+    margin: 0 20px 0 30px;
+    width: 50%;
+}
+
+.sign-in-container{
+    text-align: center;
+}
+
+.fa-brands{
+    letter-spacing: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icons-container {
+    text-align: center;
+}
+#use{
+    font-size: 14px;
+    font-weight:lighter;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+
+.form-container{
+    text-align: center;
+}
+
+.forget{
+    font-size: 14px;
+    font-weight:lighter;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+
+
+input{
+    margin: 5px 0;
+    padding: 5px 10px;
+    width: 80%;
+    height: 30px;
+    background: lightgray;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#SignIn-Btn{
+    margin-top: 7px;
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 10px;
+    background: #24263d;
+    color: white;
+    cursor: pointer;
+}
+
+#SignIn-Btn:hover{
+    transform: scale(1.05);
+}
+
+/*Right*/
+
+.right-container{
+    background: #a2a8d3;
+    height: 100%;
+    width: 65%;
+    border-radius: 100px 0 0 100px ;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+#signUp{
+    font-size: 15px;
+    padding: 10px 40px;
+}
+
+#SignUp-btn{
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: solid 2px white;
+    border-radius: 10px;
+    background: #a2a8d3;
+    color: white;
+    cursor: pointer;
+}
+
+#SignUp-btn:hover{
+    background: #24263d;
+    transform: scale(1.05);
+}
